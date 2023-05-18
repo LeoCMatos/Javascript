@@ -1,6 +1,6 @@
 body#teste{
     background-color: rgb(70, 142, 236);
-    font: normal 15pt Arial;
+    font: normal 2em Arial;
 }
 
 header{
@@ -17,10 +17,14 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
-footer{
+p{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+div{
     text-align: center;
-    font-style: italic;
-    color: white;
+    padding: 5px;
 }
 
 img{
@@ -28,3 +32,11 @@ img{
     height: 250px;
     border-radius: 50%;
 }
+
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
